@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #28B9F7;
+    gap: 50px;
+    padding: 10px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex: 0.9;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    background-color: #082947;
+    color: white;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.intro h1 {
+    font-size: 80px;
+    width: 450px;
+}
+
+.intro p {
+    font-size: 21px;
+    width: 600px;
+    opacity: 0.6;
+}
+
+.intro .content {
+    width: 700px;
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 60px;
+    gap: 50px;
+}
+
+.buttons button {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 180px;
+    font-size: 25px;
+}
+
+.post {
+    background-color: #CCF6FF;
+    display: flex;
+    width: 85%;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 35px;
+    gap: 50px;
+}
+
+.post .info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.post .text {
+    font-size: 20px;
+}
+
+.photos {
+    width: 85%;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 5px #28B9F7;
+    margin: 50px auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
