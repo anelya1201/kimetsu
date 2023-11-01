@@ -94,3 +94,15 @@ nav a {
     gap: 50px;
     justify-content: center;
 }
+
+footer{
+    background-color: #E8FCFF;
+    display: flex;
+    padding: 10px;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.hh{
+    gap: 35px;
+}
