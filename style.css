@@ -98,11 +98,8 @@ nav a {
 footer{
     background-color: #E8FCFF;
     display: flex;
+    justify-content: space-around;
     padding: 10px;
     padding-left: 80px;
     align-items: center;
-}
-
-.hh{
-    gap: 35px;
 }
