@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #28B9F7;
+    gap: 50px;
+    padding: 10px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex: 0.9;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
