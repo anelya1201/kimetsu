@@ -20,8 +20,9 @@ nav {
 
 nav a {
     color: black;
-    font-size: 18px;
+    font-size: 12px;
     text-decoration: none;
+    gap: 10px;
 }
 
 .intro {
@@ -31,21 +32,26 @@ nav a {
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
+    align-items: center;
 }
 
 .intro h1 {
     font-size: 80px;
-    width: 450px;
+    width: 250px;
 }
 
 .intro p {
     font-size: 21px;
-    width: 600px;
+    width: 500px;
     opacity: 0.6;
 }
 
+.intro img {
+    width: 40%;
+    height: 60vh;
+}
+
 .intro .content {
-    width: 700px;
     margin-top: 30px;
 }
 
@@ -53,6 +59,7 @@ nav a {
     display: flex;
     margin-top: 60px;
     gap: 50px;
+    width: 200px;
 }
 
 .buttons button {
@@ -95,11 +102,55 @@ nav a {
     justify-content: center;
 }
 
-footer{
+footer {
     background-color: #E8FCFF;
     display: flex;
     justify-content: space-around;
     padding: 10px;
     padding-left: 80px;
     align-items: center;
+}
+
+footer p,
+h4 {
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .intro img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .intro {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .intro h1 {
+        width: 90%;
+    }
+
+    .intro p {
+        width: 90%;
+    }
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 900px){
+    .post{
+        flex-direction: column;
+    }
 }
