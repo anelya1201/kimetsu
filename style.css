@@ -152,5 +152,13 @@ h4 {
 @media (max-width: 900px){
     .post{
         flex-direction: column;
+        width: 70%;
+        padding: 20px;
+    }
+    .photos img{
+        width: 80%;
+    }
+    .photos{
+        width: 70%;
     }
 }
